@@ -30,7 +30,7 @@ app.get("/", async (req, res) => {
   } catch (err) {
     console.log(err);
   }
-});
+});// add data handeling.
 
 app.post("/add", (req, res) => {
   const item = req.body.newItem;
